@@ -41,7 +41,7 @@ const SearchBar = ({ onSearch }) => {
        
         <button
           type="submit"
-          className="p-2 bg-[#A5A58D] text-white rounded-r-lg hover:bg-[#6B705C] transition-colors"
+          className="p-2 bg-[#A5A58D] text-white rounded-r-lg hover:bg-[#58D68D] transition-colors"
           style={{ boxShadow: '0px 4px 8px rgba(11,156,49,0.2)' }}
         >
           Search
