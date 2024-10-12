@@ -35,14 +35,14 @@ const SearchBar = ({ onSearch }) => {
           onChange={(e) => setQuery(e.target.value)}
           placeholder="Search for a recipe..."
           className="p-2 rounded-l-lg bg-white text-gray-800 outline-none"
-          style={{ boxShadow: '0px 4px 8px rgba(11,156,49,0.2)' }} 
+          style={{ boxShadow: '0px 4px 8px rgba(0,139,139,1)' }} 
         />
         
        
         <button
           type="submit"
-          className="p-2 bg-[#A5A58D] text-white rounded-r-lg hover:bg-[#58D68D] transition-colors"
-          style={{ boxShadow: '0px 4px 8px rgba(11,156,49,0.2)' }}
+          className="p-2 bg-[#008B8B] text-white rounded-r-lg hover:bg-[#58D68D] transition-colors"
+          style={{ boxShadow: '0px 4px 8px rgba(0,139,139,1)' }}
         >
           Search
         </button>
