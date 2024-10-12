@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="p-4 flex justify-between items-center" style={{ backgroundColor: '#58D68D' }}>
+    <header className="p-4 flex justify-between items-center" style={{ backgroundColor: '#008B8B' }}>
      
       <h1 className="text-white text-xl font-bold">
         <Link to="/">Recipe Finder</Link>
