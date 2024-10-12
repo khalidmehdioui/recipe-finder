@@ -11,12 +11,12 @@ const SearchBar = ({ onSearch }) => {
     try {
       const response = await fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${query}`);
       const data = await response.json();
-      
-      const response = await fetch(https://www.tasteatlas.com/tajine`);
+
+      const response = await fetch(`https://www.tasteatlas.com/api/json/v1/1/search.php?s=${query}`);
       const data = await response.json();
-      
-      if (data.meals) {
-        setRecipes(data.meals);  
+  
+      if (data && data.data && data.data.length > 0) {
+        setRecipes(data.data);  
         setErrorMessage('');  
       } else {
         setRecipes([]);  
@@ -36,7 +36,7 @@ const SearchBar = ({ onSearch }) => {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search for a recipe..."
+          placeholder="Search for a recipe(e.g., Tagine, Tacos)..."
           className="p-2 rounded-l-lg bg-white text-gray-800 outline-none"
           style={{ boxShadow: '0px 4px 8px rgba(0,139,139,1)' }} 
         />
@@ -58,9 +58,9 @@ const SearchBar = ({ onSearch }) => {
 
       <div className="recipe-list mt-4">
         {recipes.map((recipe) => (
-          <div key={recipe.idMeal} className="recipe-item p-4 border rounded mb-2">
-            <h3>{recipe.strMeal}</h3>
-            <img src={recipe.strMealThumb} alt={recipe.strMeal} className="w-32 h-32 object-cover" />
+          <div key={recipe.id} className="recipe-item p-4 border rounded mb-2">
+            <h3>{recipe.name}</h3>
+            <img src={recipe.image} alt={recipe.name} className="w-32 h-32 object-cover" />
           </div>
         ))}
       </div>
