@@ -75,52 +75,8 @@ To accompany, take slices of warmed baguette, stab all over with a fork and rub 
     "Roast fennel and aubergine paella": {
       title: "Roast fennel and aubergine paella",
       image: "https://www.themealdb.com/images/media/meals/1520081754.jpg",
-      ingredients: ["
-6 small Baby Aubergine
-
-4 small Fennel
-
-1 thinly sliced Red Pepper
-
-1 medium Courgettes
-
-1 finely chopped Onion
-
-300g Paella Rice
-
-1 tsp Paprika
-
-pinch Saffron
-
-200ml White Wine
-
-700ml Vegetable Stock
-
-100g Frozen Peas
-
-1 chopped Lemon
-
-Handful Parsley
-
-pinch Salt
-
-pinch Black Pepper
-"],
-      directions: "1 Put the fennel, aubergine, pepper and courgette in a roasting tray.
-Add a glug of olive oil, season with salt and pepper and toss around to coat the veggies in the oil.
-Roast in the oven for 20 minutes, turning a couple of times until the veg are pretty much cooked through and turning golden.
-2 Meanwhile, heat a paella pan or large frying pan over a low– medium heat and add a glug of olive oil.
-Sauté the onion for 8–10 minutes until softened.
-Increase the heat to medium and stir in the rice, paprika and saffron.
-Cook for around 1 minute to start toasting the rice, then add the white wine.
-Reduce by about half before stirring in two-thirds of the stock.
-Reduce to a simmer and cook for 10 minutes without a lid, stirring a couple of times.
-3 Stir in the peas, add some seasoning, then gently mix in the roasted veg.
-Pour over the remaining stock, arrange the lemon wedges on top and cover with a lid or some aluminium foil.
-Cook for a further 10 minutes.
-4 To ensure you get the classic layer of toasted rice at the bottom of the pan, increase the heat to high until you hear a slight crackle.
-Remove from the heat and sit for 5 minutes before sprinkling over the parsley and serving.
-"
+      ingredients: ["6 small Baby Aubergine","4 small Fennel","1 thinly sliced Red Pepper","1 medium Courgettes","1 finely chopped Onion","300g Paella Rice","1 tsp Paprika","pinch Saffron","200ml White Wine","700ml Vegetable Stock","100g Frozen Peas","1 chopped Lemon","Handful Parsley","pinch Salt","pinch Black Pepper"],
+      directions: "1 Put the fennel, aubergine, pepper and courgette in a roasting tray. Add a glug of olive oil, season with salt and pepper and toss around to coat the veggies in the oil. Roast in the oven for 20 minutes, turning a couple of times until the veg are pretty much cooked through and turning golden. 2 Meanwhile, heat a paella pan or large frying pan over a low– medium heat and add a glug of olive oil. Sauté the onion for 8–10 minutes until softened. Increase the heat to medium and stir in the rice, paprika and saffron. Cook for around 1 minute to start toasting the rice, then add the white wine. Reduce by about half before stirring in two-thirds of the stock. Reduce to a simmer and cook for 10 minutes without a lid, stirring a couple of times. 3 Stir in the peas, add some seasoning, then gently mix in the roasted veg. Pour over the remaining stock, arrange the lemon wedges on top and cover with a lid or some aluminium foil. Cook for a further 10 minutes. 4 To ensure you get the classic layer of toasted rice at the bottom of the pan, increase the heat to high until you hear a slight crackle. Remove from the heat and sit for 5 minutes before sprinkling over the parsley and serving."
     },
     "Spaghetti alla Carbonara": {
       title: "Spaghetti alla Carbonara",
@@ -143,121 +99,21 @@ Remove from the heat and sit for 5 minutes before sprinkling over the parsley an
     "Pad See Ew": {
       title: "Pad See Ew",
       image: "https://www.themealdb.com/images/media/meals/uuuspp1468263334.jpg",
-      ingredients: ["
-6oz/180g rice stick noodles
-
-2 tbsp dark soy sauce
-
-2 tbsp oyster sauce
-
-2 tsp soy sauce
-
-2 tsp white vinegar
-
-2 tsp sugar
-
-2 tbsp water
-
-2 tbsp peanut oil
-
-2 cloves garlic
-
-1 cup Chicken
-
-1 Egg
-
-4 cups Chinese broccoli
-
-"],
-      directions: "Mix Sauce in small bowl.
-Mince garlic into wok with oil.
-Place over high heat, when hot, add chicken and Chinese broccoli stems, cook until chicken is light golden.
-Push to the side of the wok, crack egg in and scramble.
-Don't worry if it sticks to the bottom of the wok - it will char and which adds authentic flavour.
-Add noodles, Chinese broccoli leaves and sauce.
-Gently mix together until the noodles are stained dark and leaves are wilted.
-Serve immediately!"
+      ingredients: ["6oz/180g rice stick noodles","2 tbsp dark soy sauce","2 tbsp oyster sauce","2 tsp soy sauce","2 tsp white vinegar","2 tsp sugar","2 tbsp water","2 tbsp peanut oil","2 cloves garlic","1 cup Chicken","1 Egg","4 cups Chinese broccoli"],
+      directions: "Mix Sauce in small bowl. Mince garlic into wok with oil. Place over high heat, when hot, add chicken and Chinese broccoli stems, cook until chicken is light golden. Push to the side of the wok, crack egg in and scramble. Don't worry if it sticks to the bottom of the wok - it will char and which adds authentic flavour. Add noodles, Chinese broccoli leaves and sauce. Gently mix together until the noodles are stained dark and leaves are wilted. Serve immediately!"
     },
     "Thai Green Curry": {
       title: "Thai Green Curry",
       image: "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
-      ingredients: ["
-225g new potatoes
-
-100g green beans
-
-1 tbsp sunflower oil
-
-1 clove garlic
-
-4 tsp Thai green curry paste
-
-400ml coconut milk
-
-2 tsp Thai fish sauce
-
-1 tsp Sugar
-
-450g boneless Chicken
-
-2 fresh kaffir leaves lime
-
-handfull basil
-
-Boiled Rice
-
-"],
-      directions: "Put the potatoes in a pan of boiling water and cook for 5 minutes.
-Throw in the beans and cook for a further 3 minutes, by which time both should be just tender but not too soft.
-Drain and put to one side.
-In a wok or large frying pan, heat the oil until very hot, then drop in the garlic and cook until golden, this should take only a few seconds.
-Don’t let it go very dark or it will spoil the taste.
-Spoon in the curry paste and stir it around for a few seconds to begin to cook the spices and release all the flavours.
-Next, pour in the coconut milk and let it come to a bubble.
-Stir in the fish sauce and sugar, then the pieces of chicken.
-Turn the heat down to a simmer and cook, covered, for about 8 minutes until the chicken is cooked.
-Tip in the potatoes and beans and let them warm through in the hot coconut milk, then add a lovely citrussy flavour by stirring in the shredded lime leaves (or lime zest).
-The basil leaves go in next, but only leave them briefly on the heat or they will quickly lose their brightness.
-Scatter with the lime garnish and serve immediately with boiled rice."
+      ingredients: ["225g new potatoes","100g green beans","1 tbsp sunflower oil","1 clove garlic","4 tsp Thai green curry paste","400ml coconut milk","2 tsp Thai fish sauce","1 tsp Sugar","450g boneless Chicken","2 fresh kaffir leaves lime","handfull basil","Boiled Rice"],
+      directions: "Put the potatoes in a pan of boiling water and cook for 5 minutes. Throw in the beans and cook for a further 3 minutes, by which time both should be just tender but not too soft.Drain and put to one side.In a wok or large frying pan, heat the oil until very hot, then drop in the garlic and cook until golden, this should take only a few seconds. Don’t let it go very dark or it will spoil the taste. Spoon in the curry paste and stir it around for a few seconds to begin to cook the spices and release all the flavours. Next, pour in the coconut milk and let it come to a bubble. Stir in the fish sauce and sugar, then the pieces of chicken. Turn the heat down to a simmer and cook, covered, for about 8 minutes until the chicken is cooked. Tip in the potatoes and beans and let them warm through in the hot coconut milk, then add a lovely citrussy flavour by stirring in the shredded lime leaves (or lime zest). The basil leaves go in next, but only leave them briefly on the heat or they will quickly lose their brightness. Scatter with the lime garnish and serve immediately with boiled rice."
      
     },
     "Massaman Beef curry": {
       title: "Massaman Beef curry",
       image: "https://www.themealdb.com/images/media/meals/tvttqv1504640475.jpg",
-      ingredients: ["
-85g Peanuts
-
-400ml can Coconut cream
-
-4 tbsp Massaman curry paste
-
-600g stewing cut into strips Beef
-
-450g waxy Potatoes
-
-1 cut thin wedges Onion
-
-4 leaves Lime
-
-1 Cinnamon stick
-
-1 tbsp Tamarind paste
-
-1 tbsp palm or soft light Brown sugar
-
-1 tbsp Fish Sauce
-
-1 red deseeded and finely sliced, to serve chilli
-
-to serve Jasmine Rice"],
-      directions: "Heat oven to 200C/180C fan/gas 6, then roast the peanuts on a baking tray for 5 mins until golden brown.
-When cool enough to handle, roughly chop.
-Reduce oven to 180C/160C fan/gas 4.
-Heat 2 tbsp coconut cream in a large casserole dish with a lid.
-Add the curry paste and fry for 1 min, then stir in the beef and fry until well coated and sealed.
-Stir in the rest of the coconut with half a can of water, the potatoes, onion, lime leaves, cinnamon, tamarind, sugar, fish sauce and most of the peanuts.
-Bring to a simmer, then cover and cook for 2 hrs in the oven until the beef is tender.
-Sprinkle with sliced chilli and the remaining peanuts, then serve straight from the dish with jasmine rice."
+      ingredients: ["85g Peanuts","400ml can Coconut cream","4 tbsp Massaman curry paste","600g stewing cut into strips Beef","450g waxy Potatoes","1 cut thin wedges Onion","4 leaves Lime","1 Cinnamon stick","1 tbsp Tamarind paste","1 tbsp palm or soft light Brown sugar","1 tbsp Fish Sauce","1 red deseeded and finely sliced, to serve chilli","to serve Jasmine Rice"],
+      directions: "Heat oven to 200C/180C fan/gas 6, then roast the peanuts on a baking tray for 5 mins until golden brown. When cool enough to handle, roughly chop. Reduce oven to 180C/160C fan/gas 4. Heat 2 tbsp coconut cream in a large casserole dish with a lid. Add the curry paste and fry for 1 min, then stir in the beef and fry until well coated and sealed. Stir in the rest of the coconut with half a can of water, the potatoes, onion, lime leaves, cinnamon, tamarind, sugar, fish sauce and most of the peanuts. Bring to a simmer, then cover and cook for 2 hrs in the oven until the beef is tender. Sprinkle with sliced chilli and the remaining peanuts, then serve straight from the dish with jasmine rice."
     }
   };
 
