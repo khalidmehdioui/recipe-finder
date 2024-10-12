@@ -58,7 +58,7 @@ const CuisinePage = () => {
       <h1 className="text-2xl font-bold mb-4 text-[#58D68D]">{cuisineType} Cuisine</h1>
 
       {recipes.length > 0 ? (
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-[#008B8B]">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 text-[#58D68D]">
           {recipes.map((recipe, index) => (
             <div key={index}>
              
@@ -67,7 +67,7 @@ const CuisinePage = () => {
           ))}
         </div>
       ) : (
-        <p className="text-[#58D68D]">No recipes available for this cuisine.</p>
+        <p className="text-[#008B8B]">No recipes available for this cuisine.</p>
       )}
     </div>
   );
