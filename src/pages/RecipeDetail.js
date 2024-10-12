@@ -83,7 +83,7 @@ const RecipeDetail = () => {
           </ul>
         </div>
         <div className="flex-1">
-          <h2 className="text-xl font-semibold text-[#58D68D] mb-2">Directions</h2>
+          <h2 className="text-xl font-semibold text-[#008B8B] mb-2">Directions</h2>
           <p className="mb-4">{recipe.directions}</p>
         </div>
       </div>
