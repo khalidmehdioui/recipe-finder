@@ -9,7 +9,7 @@ const SearchBar = ({ onSearch }) => {
     e.preventDefault();
 
     try {
-      const response = await fetch(`https://www.tasteatlas.com/api/json/v1/1/search.php?s=${query}`);
+      const response = await fetch(`https://www.tasteatlas.com/api/json/v1/1/search.php?s=${tajin}`);
       const data = await response.json();
 
       if (data.meals) {
