@@ -7,24 +7,120 @@ const RecipeDetail = () => {
   const recipeName = name.replace(/-/g, ' ');
 
   const recipeData = {
-    "Tajin": {
-      title: "Tajin",
-      image: "https://th.bing.com/th/id/R.6b1e194d390dc23aca7f86a392214b10?rik=tZCYKhL57xKI0w&pid=ImgRaw&r=0",
-      ingredients: ["Lamb or beef", "Dried prunes", "Dried apricots", "Blanched almonds", "Onion, chopped", "Garlic, minced", "Saffron or turmeric", "Cinnamon", "Salt and pepper", "Olive oil", "Meat broth or water"],
-      directions: " Prepare Ingredients: Soak the prunes and apricots in water for about 30 minutes, then drain. Heat Oil: In a tagine or pot, heat olive oil over medium heat. Brown the Meat: Add the meat pieces and brown them on all sides. Add Onion and Garlic: Add the chopped onion and minced garlic, sautéing until the onion is translucent. Season: Stir in saffron or turmeric, cinnamon, salt, and pepper. Add Liquid: Pour in the meat broth or water until the meat is covered. Bring to a boil. Cook the Meat: Cover the tagine and reduce the heat to low. Let it simmer for about 1.5 to 2 hours until the meat is tender. Add Fruits: After the cooking time, add the prunes, apricots, and almonds. Let it cook for another 20 minutes. Serve: Serve hot with bread or couscous."
+    "Seafood fideuà": {
+      title: "Seafood fideuà",
+      image: "https://www.themealdb.com/images/media/meals/wqqvyq1511179730.jpg",
+      ingredients: ["400g Mussels","8 Prawns2 pinches Saffron","350g Vermicelli","5 tblsp Olive Oil","1 large Onions","3 cloves Garlic","2 tbs Paprika","1 tail Monkfish","4 Baby Squid","650ml Fish Stock","2 large Tomatoes","Juice of 1 Lemon","Topping Parsley"],
+      directions: "Boil the kettle.
+Empty the mussels into a colander and run under cold water.
+Throw away any with broken shells.
+Pick through the shells, tapping each one on the side of the sink – they should be closed or should slowly close when tapped – if they stay open, throw them away.
+If any of the shells still have barnacles or stringy beards attached, pull them off with a cutlery knife and rinse the shells well.
+Keep in the colander, covered with a cold, damp cloth, until you’re ready to cook.
+Peel the prawn shells on the body section only – leave the heads and tails intact.
+Score down the backs and pull out any gritty entrails.
+Chill until you’re ready to cook.
+Put the saffron in a small cup, cover with 50ml kettle-hot water and set aside for 10 mins.
+If using vermicelli, put in a bowl and crush to little pieces (about 1cm long) with your hands.
+Heat the oil in a large frying pan with at least a 3cm lip, or a 40cm paella pan.
+Add the onion and stir around the pan for 5 mins until soft.
+Add the garlic and cook for 1 min more, then tip in the vermicelli and cook for 5 mins, stirring from time to time, until the vermicelli is toasted brown.
+Stir in the paprika.
+Keeping the heat moderate, stir through the monkfish, squid and saffron with its water, seasoning well.
+Spread the ingredients out in an even layer, then pour over the hot stock and scatter the tomatoes on top.
+Bring to a simmer, then cover the whole dish with a tight-fitting lid (or foil).
+Turn the heat to medium and cook for 6 mins.
+Uncover and stir to incorporate the dry top layer of pasta.
+Push the mussels into the pasta so the hinges are buried in the bottom of the dish, and they stand straight up.
+Arrange the prawns on top, cover tightly and cook for another 6 mins or until the mussels are open, the prawns are pink and the pasta is cooked through.
+Leave to simmer for another 2-3 mins to cook off most of the remaining liquid (leave a little in the pan to prevent the pasta from sticking together).
+Allow to sit for 2-3 mins, then squeeze over the lemon juice and arrange the wedges on top.
+Scatter with parsley before serving.
+"
     
     },
-    "Pastilla": {
-      title: "Pastilla",
-      image: "https://thumbs.dreamstime.com/b/fresh-baked-moroccan-fish-pastilla-close-up-239501736.jpg",
-      ingredients: ["Chicken (or pigeon)","Chopped onion","Fried and ground almonds", "Eggs", "Saffron", "Cinnamon", "Salt and pepper", "Bastilla pastry (or filo dough)", "Powdered sugar (for garnish)", "Olive oil or butter"],
-      directions: " Prepare the Chicken: Cook the chicken with onions and spices (saffron, cinnamon, salt, pepper) in water until tender. Remove the chicken and strain the broth. Shred the Chicken: Once cooled, debone and shred the chicken into small pieces. Prepare the Filling: In a pan, mix the shredded chicken with ground almonds and beaten eggs. Cook on low heat until the eggs are set. Prepare the Pastry: Brush the bastilla pastry with butter. Assemble the Bastilla: Layer the pastry, add the filling, then cover with another layer of pastry. Repeat as needed. Bake: Place the bastilla in a baking dish, brush with butter, and bake in a preheated oven until golden brown. Serve: Dust with powdered sugar and cinnamon before serving."
+    "Spanish Tortilla": {
+      title: "Spanish Tortilla",
+      image: "https://www.themealdb.com/images/media/meals/quuxsx1511476154.jpg",
+      ingredients: ["
+1 sliced Onion
+
+4 tbsp Olive Oil
+
+25g Butter
+
+400g Potatoes
+
+6 cloves Garlic
+
+8 Eggs
+
+Handful Parsley
+
+1 Baguette
+
+4 Vine Tomatoes
+
+drizzle Olive Oil"],
+      directions: "Put a large non-stick frying pan on a low heat.
+Cook the onion slowly in the oil and butter until soft but not brown – this should take about 15 mins.
+Add the potatoes, cover the pan and cook for a further 15-20 mins, stirring occasionally to make sure they fry evenly.
+When the potatoes are soft and the onion is shiny, crush 2 garlic cloves and stir in, followed by the beaten eggs.
+Put the lid back on the pan and leave the tortilla to cook gently.
+After 20 mins, the edges and base should be golden, the top set but the middle still a little wobbly.
+To turn it over, slide it onto a plate and put another plate on top, turn the whole thing over and slide it back into the pan to finish cooking.
+Once cooked, transfer to a plate and serve the tortilla warm or cold, scattered with the chopped parsley.
+To accompany, take slices of warmed baguette, stab all over with a fork and rub with the remaining garlic, pile on grated tomatoes and season with sea salt and a drizzle of olive oil."
     },
-    "Couscous": {
-      title: "Couscous",
-      image: "https://i.pinimg.com/originals/4c/53/56/4c5356b715ae1a13cc815888e0244ef6.jpg",
-      ingredients: ["Couscous (about 500 g)", "Vegetables (such as carrots, zucchini, bell peppers, and peas)", "Meat (chicken or lamb)", "Chopped onion", "Olive oil", "Spices (cumin, coriander, cinnamon, salt, and pepper)", "Broth (water or meat broth)"],
-      directions: " Prepare the Vegetables: Cut the vegetables into small cubes. Heat Oil: In a pot, heat olive oil and sauté the chopped onion until translucent. Add Meat: Add the meat pieces and brown them on all sides. Season: Stir in the spices and broth, then bring to a boil. Add Vegetables: Once boiling, add the vegetables and let it simmer on low heat until everything is tender. Prepare the Couscous: In a bowl, place the couscous and cover it with hot water. Let it sit for about 10 minutes. Steam the Couscous: Place the couscous in a steamer for about 10-15 minutes until cooked through. Serve: Serve the couscous on a plate with the meat and vegetables on top."
+    "Roast fennel and aubergine paella": {
+      title: "Roast fennel and aubergine paella",
+      image: "https://www.themealdb.com/images/media/meals/1520081754.jpg",
+      ingredients: ["
+6 small Baby Aubergine
+
+4 small Fennel
+
+1 thinly sliced Red Pepper
+
+1 medium Courgettes
+
+1 finely chopped Onion
+
+300g Paella Rice
+
+1 tsp Paprika
+
+pinch Saffron
+
+200ml White Wine
+
+700ml Vegetable Stock
+
+100g Frozen Peas
+
+1 chopped Lemon
+
+Handful Parsley
+
+pinch Salt
+
+pinch Black Pepper
+"],
+      directions: "1 Put the fennel, aubergine, pepper and courgette in a roasting tray.
+Add a glug of olive oil, season with salt and pepper and toss around to coat the veggies in the oil.
+Roast in the oven for 20 minutes, turning a couple of times until the veg are pretty much cooked through and turning golden.
+2 Meanwhile, heat a paella pan or large frying pan over a low– medium heat and add a glug of olive oil.
+Sauté the onion for 8–10 minutes until softened.
+Increase the heat to medium and stir in the rice, paprika and saffron.
+Cook for around 1 minute to start toasting the rice, then add the white wine.
+Reduce by about half before stirring in two-thirds of the stock.
+Reduce to a simmer and cook for 10 minutes without a lid, stirring a couple of times.
+3 Stir in the peas, add some seasoning, then gently mix in the roasted veg.
+Pour over the remaining stock, arrange the lemon wedges on top and cover with a lid or some aluminium foil.
+Cook for a further 10 minutes.
+4 To ensure you get the classic layer of toasted rice at the bottom of the pan, increase the heat to high until you hear a slight crackle.
+Remove from the heat and sit for 5 minutes before sprinkling over the parsley and serving.
+"
     },
     "Spaghetti alla Carbonara": {
       title: "Spaghetti alla Carbonara",
@@ -44,24 +140,124 @@ const RecipeDetail = () => {
       ingredients: ["Pizza Dough", "Tomato Sauce", "Mozzarella Cheese", "Basil"],
       directions: "Preheat the oven to 230°C. Dissolve sugar and crumble fresh yeast into warm water, letting it stand for 10-15 minutes in a warm spot until frothy. Sift flour and salt into a bowl, creating a well in the center, and add the yeast mixture and olive oil. Lightly flour your hands and mix the ingredients until combined. Dust your surface with flour and knead the dough for 10 minutes until smooth and silky. Place the dough in a lightly oiled baking tray. Spread passata on top, add mozzarella (or other cheese), season with oregano and black pepper, and drizzle with olive oil. Bake for 10-12 minutes until the cheese is slightly colored, then top with basil leaves and enjoy!"
     },
-    "Tacos": {
-      title: "Tacos",
-      image: "https://blog.amigofoods.com/wp-content/uploads/2020/12/tacos-authentic-mexican-food.jpg",
-      ingredients: ["Corn or flour tortillas", "Ground beef, chicken, or pork", "Taco seasoning (or spices: cumin, chili powder, garlic powder, onion powder)", "Chopped onions", "Chopped tomatoes", "Shredded lettuce", "Shredded cheese (cheddar or queso fresco)", "Sour cream", "Salsa", "Jalapeños (optional)", "Avocado or guacamole (optional)"],
-      directions: "1. Cook the Meat: In a skillet, brown the ground meat over medium heat. Drain excess fat. 2. Season the Meat: Add taco seasoning and a splash of water. Stir and simmer for a few minutes until well mixed. 3. Warm the Tortillas: Heat the tortillas in a skillet or microwave until warm and pliable. 4. Assemble the Tacos: Place a portion of the cooked meat in each tortilla. Top with chopped onions, tomatoes, shredded lettuce, and cheese. 5. Add Toppings: Finish with sour cream, salsa, jalapeños, and avocado or guacamole if desired. 6. Serve: Serve immediately and enjoy!"
+    "Pad See Ew": {
+      title: "Pad See Ew",
+      image: "https://www.themealdb.com/images/media/meals/uuuspp1468263334.jpg",
+      ingredients: ["
+6oz/180g rice stick noodles
+
+2 tbsp dark soy sauce
+
+2 tbsp oyster sauce
+
+2 tsp soy sauce
+
+2 tsp white vinegar
+
+2 tsp sugar
+
+2 tbsp water
+
+2 tbsp peanut oil
+
+2 cloves garlic
+
+1 cup Chicken
+
+1 Egg
+
+4 cups Chinese broccoli
+
+"],
+      directions: "Mix Sauce in small bowl.
+Mince garlic into wok with oil.
+Place over high heat, when hot, add chicken and Chinese broccoli stems, cook until chicken is light golden.
+Push to the side of the wok, crack egg in and scramble.
+Don't worry if it sticks to the bottom of the wok - it will char and which adds authentic flavour.
+Add noodles, Chinese broccoli leaves and sauce.
+Gently mix together until the noodles are stained dark and leaves are wilted.
+Serve immediately!"
     },
-    "chile relleno": {
-      title: "chile relleno",
-      image: "https://th.bing.com/th/id/R.da960f9ac204694e839ec6d59909844e?rik=3qOLd07U3TKgdA&riu=http%3a%2f%2fwww.chowstatic.com%2fassets%2f2014%2f09%2f29565_chiles_rellenos-3000x2000.jpg&ehk=njcRLA8f2ybGTctO2dwRzGN7zoBWawYW3quO6G6L2Rg%3d&risl=&pid=ImgRaw&r=0",
-      ingredients: ["4 large poblano peppers", "1 cup shredded cheese (like Monterey Jack or Chihuahua)", "2 eggs (separated)", "1/2 cup flour", "1 cup tomato sauce (for serving)", "Salt and pepper, to taste", "Oil (for frying)"],
-      directions: "1. Roast the Peppers: Preheat the oven to 400°F (200°C). Place the poblano peppers on a baking sheet and roast until the skins are blistered and charred. Remove and let them cool, then peel off the skins and remove the seeds. 2. Stuff the Peppers: Carefully stuff each pepper with shredded cheese. 3. Prepare the Batter: In a bowl, beat the egg whites until stiff peaks form. In another bowl, beat the egg yolks with a pinch of salt and pepper. Gently fold the yolks into the whites. 4. Coat the Peppers: Dust the stuffed peppers lightly with flour, then dip them into the egg batter. 5. Fry the Peppers: Heat oil in a skillet over medium heat. Carefully place the battered peppers in the skillet and fry until golden brown on all sides. Remove and drain on paper towels. 6. Serve: Serve the chile rellenos hot, topped with warm tomato sauce."
+    "Thai Green Curry": {
+      title: "Thai Green Curry",
+      image: "https://www.themealdb.com/images/media/meals/sstssx1487349585.jpg",
+      ingredients: ["
+225g new potatoes
+
+100g green beans
+
+1 tbsp sunflower oil
+
+1 clove garlic
+
+4 tsp Thai green curry paste
+
+400ml coconut milk
+
+2 tsp Thai fish sauce
+
+1 tsp Sugar
+
+450g boneless Chicken
+
+2 fresh kaffir leaves lime
+
+handfull basil
+
+Boiled Rice
+
+"],
+      directions: "Put the potatoes in a pan of boiling water and cook for 5 minutes.
+Throw in the beans and cook for a further 3 minutes, by which time both should be just tender but not too soft.
+Drain and put to one side.
+In a wok or large frying pan, heat the oil until very hot, then drop in the garlic and cook until golden, this should take only a few seconds.
+Don’t let it go very dark or it will spoil the taste.
+Spoon in the curry paste and stir it around for a few seconds to begin to cook the spices and release all the flavours.
+Next, pour in the coconut milk and let it come to a bubble.
+Stir in the fish sauce and sugar, then the pieces of chicken.
+Turn the heat down to a simmer and cook, covered, for about 8 minutes until the chicken is cooked.
+Tip in the potatoes and beans and let them warm through in the hot coconut milk, then add a lovely citrussy flavour by stirring in the shredded lime leaves (or lime zest).
+The basil leaves go in next, but only leave them briefly on the heat or they will quickly lose their brightness.
+Scatter with the lime garnish and serve immediately with boiled rice."
      
     },
-    "guacamole": {
-      title: "guacamole",
-      image: "https://th.bing.com/th/id/R.ec7a86e2a6417b33514a4e13b3a7dc9a?rik=O0WUSb9ik9WXrg&pid=ImgRaw&r=0",
-      ingredients: ["2 ripe avocados", "1 small onion, finely chopped", "1-2 tomatoes, diced", "1 lime, juiced", "1-2 cloves garlic, minced", "Salt, to taste", "Fresh cilantro (optional), chopped", "Jalapeño (optional), minced for heat"],
-      directions: "1. Prepare the Avocados: Cut the avocados in half, remove the pit, and scoop the flesh into a bowl. 2. Mash the Avocados: Using a fork or a potato masher, mash the avocados to your desired level of smoothness. 3. Add Ingredients: Stir in the chopped onion, diced tomatoes, lime juice, minced garlic, and salt. Add cilantro and jalapeño if using. 4. Mix Well: Combine all ingredients until well mixed. Adjust seasoning to taste. 5. Serve: Serve immediately with tortilla chips or as a topping for tacos and other dishes."
+    "Massaman Beef curry": {
+      title: "Massaman Beef curry",
+      image: "https://www.themealdb.com/images/media/meals/tvttqv1504640475.jpg",
+      ingredients: ["
+85g Peanuts
+
+400ml can Coconut cream
+
+4 tbsp Massaman curry paste
+
+600g stewing cut into strips Beef
+
+450g waxy Potatoes
+
+1 cut thin wedges Onion
+
+4 leaves Lime
+
+1 Cinnamon stick
+
+1 tbsp Tamarind paste
+
+1 tbsp palm or soft light Brown sugar
+
+1 tbsp Fish Sauce
+
+1 red deseeded and finely sliced, to serve chilli
+
+to serve Jasmine Rice"],
+      directions: "Heat oven to 200C/180C fan/gas 6, then roast the peanuts on a baking tray for 5 mins until golden brown.
+When cool enough to handle, roughly chop.
+Reduce oven to 180C/160C fan/gas 4.
+Heat 2 tbsp coconut cream in a large casserole dish with a lid.
+Add the curry paste and fry for 1 min, then stir in the beef and fry until well coated and sealed.
+Stir in the rest of the coconut with half a can of water, the potatoes, onion, lime leaves, cinnamon, tamarind, sugar, fish sauce and most of the peanuts.
+Bring to a simmer, then cover and cook for 2 hrs in the oven until the beef is tender.
+Sprinkle with sliced chilli and the remaining peanuts, then serve straight from the dish with jasmine rice."
     }
   };
 
