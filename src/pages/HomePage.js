@@ -12,18 +12,18 @@ const HomePage = () => {
       
      
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-8">
-        {/* Maroccan Cuisine */}
+        {/* Spanish Cuisine */}
         <div className="space-y-4">
           <div className="flex flex-col items-center">
             <Link 
-              to="/cuisine/Maroccan" 
+              to="/cuisine/Spanish" 
               className="bg-primary text-white py-2 w-full text-lg rounded-lg hover:bg-secondary"
             >
-              Moroccan Cuisine
+              Spanish Cuisine
             </Link>
             <img 
-              src="https://cmkt-image-prd.freetls.fastly.net/0.1.0/ps/6519441/1820/1213/m1/fpnw/wm1/bjohyk4ttcq3xvf8mkuqn31cnrexp1phtpzm1gyvdfd7vzy3ajhcdula0mqz3ump-.jpg?1560243082&s=2b49460455eebc952148c40f15cb4fb7" 
-              alt="Moroccan Cuisine" 
+              src="https://th.bing.com/th/id/OIP.qoglt67ZTjeA-pHZzoC5NwAAAA?rs=1&pid=ImgDetMain" 
+              alt="Spanish Cuisine" 
               className="w-full h-40 object-cover rounded-lg"
             />
           </div>
@@ -46,18 +46,18 @@ const HomePage = () => {
           </div>
         </div>
 
-        {/* Mexican Cuisine */}
+        {/* Thaïlande Cuisine */}
         <div className="space-y-4">
           <div className="flex flex-col items-center">
             <Link 
-              to="/cuisine/Mexican" 
+              to="/cuisine/Thaïlande" 
               className="bg-primary text-white py-2 w-full text-lg rounded-lg hover:bg-secondary"
             >
-              Mexican Cuisine
+              Thaïlande Cuisine
             </Link>
             <img 
-              src="https://www.rentbyhost.com/files/blog/202109201832446148d3cc4df40.jpg" 
-              alt="Mexican Cuisine" 
+              src="https://img.ev.mu/images/attractions/5627/1605x642/2443.jpg" 
+              alt="Thaïlande Cuisine" 
               className="w-full h-40 object-cover rounded-lg"
             />
           </div>
