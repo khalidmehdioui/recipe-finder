@@ -36,7 +36,7 @@ const SearchBar = ({ onSearch }) => {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Search for a recipe(e.g., Tagine, Tacos)..."
+          placeholder="Search for a recipe(e.g., Tagine, Pastilla, couscous, Tacos, chile relleno, guacamole )..."
           className="p-2 rounded-l-lg bg-white text-gray-800 outline-none"
           style={{ boxShadow: '0px 4px 8px rgba(0,139,139,1)' }} 
         />
