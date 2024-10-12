@@ -69,13 +69,13 @@ const RecipeDetail = () => {
 
   return (
     <div className="p-5 max-w-4xl mx-auto">
-      <h1 className="text-2xl font-bold text-[#58D68D] mb-4">{recipe.title}</h1>
+      <h1 className="text-2xl font-bold text-[#008B8B] mb-4">{recipe.title}</h1>
       <div className="flex flex-col md:flex-row md:space-x-6">
         <div className="flex-1 md:max-w-xs mb-4 md:mb-0">
           <img src={recipe.image} alt={recipe.title} className="w-full h-auto rounded-lg shadow-md" />
         </div>
         <div className="flex-1 mb-4 md:mb-0">
-          <h2 className="text-xl font-semibold text-[#58D68D] mb-2">Ingredients</h2>
+          <h2 className="text-xl font-semibold text-[#008B8B] mb-2">Ingredients</h2>
           <ul className="list-disc list-inside mb-4">
             {recipe.ingredients.map((ingredient, index) => (
               <li key={index}>{ingredient}</li>
